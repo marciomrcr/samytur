@@ -1,0 +1,64 @@
+{
+  "stocks": [
+    {
+      "id": 1,
+      "name": "Apple Inc.",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "name": "Microsoft Corp.",
+      "price": 200
+    },
+    {
+      "id": 3,
+      "name": "Oracle Corp.",
+      "price": 300
+    },
+    {
+      "id": 4,
+      "name": "Google Inc.",
+      "price": 400
+    },
+    {
+      "name": "Coca-Cola",
+      "price": "15",
+      "id": 5
+    },
+    {
+      "name": "Teste",
+      "price": "111",
+      "id": 6
+    },
+    {
+      "name": "Teste2",
+      "price": "1112",
+      "id": 7
+    },
+    {
+      "name": "Teste3",
+      "price": "1113",
+      "id": 8
+    },
+    {
+      "name": "Teste4",
+      "price": "1114",
+      "id": 9
+    },
+    {
+      "name": "Barril",
+      "price": "2",
+      "id": 10
+    },
+    {
+      "name": "Bombom",
+      "price": "2",
+      "id": 11
+    },
+    {
+      "name": "Bola",
+      "price": "2",
+      "id": 12
+    }
+  ]
+}
