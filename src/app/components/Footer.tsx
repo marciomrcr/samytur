@@ -37,7 +37,13 @@ export default function Footer() {
       </div>{" "}
       <div>
         <a href="/">
-          <Image src="/samy-tur.png" alt="Logo" height={68} width={128} />
+          <Image
+            src="/samy-tur.png"
+            alt="Logo"
+            height={68}
+            width={128}
+            priority
+          />
         </a>
       </div>
       <div className="text-yellow-500">

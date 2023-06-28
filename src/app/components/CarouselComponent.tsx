@@ -27,6 +27,7 @@ const CarouselComponent: React.FC = () => {
             src="/banner2.jpg"
             alt="Slide 1"
             fill
+            priority
             className=" h-[380px] md:h-[620px]  "
           />
           <p className="text-center">Copacabana</p>
@@ -37,6 +38,7 @@ const CarouselComponent: React.FC = () => {
             src="/banner3.jpg"
             alt="Slide 1"
             fill
+            priority
             className="h-[380px] md:h-[620px]"
           />
           <p className="text-center">Slide 2</p>
@@ -47,6 +49,7 @@ const CarouselComponent: React.FC = () => {
             src="/banner4.jpg"
             alt="Slide 1"
             fill
+            priority
             className="h-[380px] md:h-[620px]   "
           />
           <p className="text-center">Slide 3</p>
@@ -57,6 +60,7 @@ const CarouselComponent: React.FC = () => {
             src="/banner5.jpg"
             alt="Slide 1"
             fill
+            priority
             className="h-[380px] md:h-[620px]   "
           />
           <p className="text-center font-black">Slide 3</p>
@@ -67,6 +71,7 @@ const CarouselComponent: React.FC = () => {
             src="/banner6.jpg"
             alt="Slide 1"
             fill
+            priority
             className="h-[380px] md:h-[620px]   "
           />
           <p className="text-center">Slide 3</p>

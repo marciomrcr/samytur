@@ -40,7 +40,8 @@ export default function Featured() {
                   src="/whatsapp.png"
                   width={68}
                   height={68}
-                  alt="Pesquisar"
+                  alt="whatsapp"
+                  priority
                   className=" md:h-16 h-16  mr-0 flex flex-row"
                 />
                 <p className="font-bold">Solicitar Reserva</p>
@@ -53,6 +54,7 @@ export default function Featured() {
               alt="Imagem destaque"
               width={768}
               height={240}
+              priority
               className=" md:ml-auto mb-2 md:mb-0 md:px-4 flex-shrink-0 md-w-full"
             />
           </div>

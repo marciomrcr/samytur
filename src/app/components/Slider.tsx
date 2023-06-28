@@ -31,6 +31,7 @@ export const Slider: React.FC = () => {
               alt="Slider"
               width={1024}
               height={480}
+              priority
               className="w-screen "
             />
           </SwiperSlide>

@@ -19,6 +19,7 @@ export default function Banner() {
               width={68}
               height={68}
               alt="Pesquisar"
+              priority
               className="w-16 md:h-16 h-16  mr-0 flex flex-row"
             />
             Agende a sua viagem

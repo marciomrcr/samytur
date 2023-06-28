@@ -54,6 +54,7 @@ const Menu: React.FC = () => {
                         alt="Logo"
                         height={68}
                         width={148}
+                        priority
                         className="block lg:hidden"
                       />
                       <Image
@@ -61,6 +62,7 @@ const Menu: React.FC = () => {
                         alt="Logo"
                         height={68}
                         width={148}
+                        priority
                         className="hidden lg:block"
                       />
                     </a>
