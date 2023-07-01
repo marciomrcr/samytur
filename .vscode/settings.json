@@ -1,11 +1,15 @@
 {
   "cSpell.words": [
     "Alchymist",
+    "caida",
+    "excursoes",
     "facebook",
     "flaticon",
     "instagram",
+    "Maracaipe",
     "samy",
     "samytur",
     "youtube"
-  ]
+  ],
+  "typescript.tsdk": "node_modules\\typescript\\lib"
 }

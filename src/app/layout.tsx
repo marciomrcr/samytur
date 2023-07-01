@@ -1,11 +1,6 @@
 // import Header from "./components/Header";
-import About from "./components/About";
-import Banner from "./components/Banner";
-import CarouselComponent from "./components/CarouselComponent";
-import Featured from "./components/Featured";
 import Footer from "./components/Footer";
 import Menu from "./components/Menu";
-import ResortsGrid from "./components/ResortsGrid";
 import TopIcon from "./components/TopIcon";
 import "./globals.css";
 
@@ -23,12 +18,7 @@ export default function RootLayout({
     <html lang="pt-br" className=" bg-slate-900 transition-all duration-500">
       <body className="container max-w-full bg-black">
         <Menu />
-        <Banner />
-        <CarouselComponent />
-        <Featured />
-        <ResortsGrid />
-        <About />
-
+        {children}
         <TopIcon />
         <Footer />
         {/* {children} */}

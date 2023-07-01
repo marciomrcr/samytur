@@ -11,26 +11,27 @@ export default function About() {
           Sobre nós
         </h3>
         {/* md:grid-cols-2 lg:grid-cols-3 */}
-        <div className=" rounded-md overflow-hidden">
-          <div className="relative h-60 md:h-[500px] rounded-md overflow-hidden">
-            <div className="absolute text-white font-bold bottom-0 pl-4 pb-4">
-              Viagem conosco
+        <div className=" rounded-md overflow-hidden md:h-auto">
+          <div className="relative h-60 md:h-[680px] rounded-md overflow-hidden">
+            <div className="absolute text-yellow-400 font-bold bottom-0 pl-4 pb-4">
+              <h1></h1>
             </div>
 
             <img
-              src="/blog-image1.jpg"
+              src="/about.jpg"
               alt=""
-              className="w-full object-contain"
+              className="w-full h-auto object-contain"
             />
           </div>
-          <div className="relative h-96 rounded-md overflow-hidden">
-            <div className="absolute text-white font-bold bottom-0 pl-4 pb-4">
-              Imagem 2
+          <div className="relative h-60 md:h-[680px] rounded-md overflow-hidden">
+            <div className="absolute text-yellow-400 font-bold bottom-0 pl-4 pb-4">
+              <h1></h1>
             </div>
+
             <img
-              src="/blog-image2.jpg"
+              src="/about2.jpg"
               alt=""
-              className="w-full h-full object-cover"
+              className="w-full h-auto object-contain"
             />
           </div>
         </div>

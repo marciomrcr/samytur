@@ -23,7 +23,7 @@ const Menu: React.FC = () => {
     { text: "Réveillon", link: "" },
     { text: "Julho", link: "" },
     { text: "Sobre nós", link: "#about" },
-    { text: "Viagens anteriores", link: "#" },
+    { text: "Galeria de imagens", link: "#gallery" },
     { text: "Contato", link: "#contact" },
   ];
 

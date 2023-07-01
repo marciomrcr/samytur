@@ -24,6 +24,16 @@ const CarouselComponent: React.FC = () => {
       >
         <div className="h-[360px] md:h-[620px] ">
           <Image
+            src="/samyTur.jpeg"
+            alt="Slide 1"
+            fill
+            priority
+            className=" h-[380px] md:h-[620px]  "
+          />
+          <p className="text-center">Copacabana</p>
+        </div>
+        <div className="h-[360px] md:h-[620px] ">
+          <Image
             src="/banner2.jpg"
             alt="Slide 1"
             fill
